@@ -365,7 +365,7 @@ async def on_message(message):  # This whole function just checks for specific p
         print(str(datetime.datetime.now()) + " : " + guildname + " : " + response)
 
     if message.content == '?code' or message.content == '?Code':
-        response = 'https://hastebin.com/erofoziham.py'
+        response = 'https://github.com/Ryano81/christmasbot'
         await message.channel.send(response)
         guild = message.guild
         guildname = guild.name
