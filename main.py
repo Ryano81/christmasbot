@@ -8,7 +8,7 @@ from discord.ext import tasks
 intents = discord.Intents.default()
 intents.members = True  # This line is required to get member ID's
 
-TOKEN = 'NzgwOTA1Mjc2Mjk0NDMwNzQw.X714tg.kMU2X2IIue4aqsqbA5n3S0AQPgM'
+TOKEN = 'REDACTED' # Removing this so my friends dont take over my discord server
 GUILD = '723977864373862451'
 
 client = discord.Client(intents=intents)
